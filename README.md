@@ -1,6 +1,6 @@
 # 🚀 Formação Oracle Next Education: Data Science + IA
 
-Bem-vindo ao repositório da **Formação Oracle Next Education (ONE)**! 🚀 Aqui você encontrará materiais, exercícios, projetos e anotações para aprofundar seus conhecimentos em **Data Science** e **Inteligência Artificial (IA)**.
+Bem-vindo ao repositório da **Formação Oracle Next Education (ONE)**! 🚀 Aqui você encontrará materiais, exercícios, projetos e anotações sobre **Data Science** e **Inteligência Artificial (IA)**.
 
 ## 🎯 Objetivo Geral
 A formação visa proporcionar uma **introdução prática e teórica** aos principais conceitos de **Data Science** e **Inteligência Artificial**, preparando para desafios reais no mercado de trabalho. O foco será em aprender **modelagem de dados**, **ETL**, **visualização de dados** e **desenvolvimento de modelos de IA**.

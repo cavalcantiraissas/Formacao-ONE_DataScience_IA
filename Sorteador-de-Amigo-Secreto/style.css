@@ -1,0 +1,136 @@
+:root {
+    --color-primary: #4B69FD;
+    --color-secondary: #FFF9EB;
+    --color-tertiary: #C4C4C4;
+    --color-button: #fe652b;
+    --color-button-hover: #e55720;
+    --color-text: #444444;
+    --color-white: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Banner */
+.header-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.main-title {
+    font-size: 48px;
+    color: var(--color-white);
+}
+
+/* Caixa de entrada */
+.input-section {
+    background-color: var(--color-secondary);
+    border-radius: 32px;
+    padding: 30px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 24px;
+    color: var(--color-primary);
+    margin-bottom: 20px;
+}
+
+.input-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.input-name {
+    width: 70%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.button-add {
+    background-color: var(--color-tertiary);
+    color: var(--color-text);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button-add:hover {
+    background-color: #a1a1a1;
+}
+
+/* Lista de amigos */
+.name-list, .result-list {
+    list-style-type: none;
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.result-list {
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+}
+
+/* Botões */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.button-draw, .button-clear {
+    width: 80%;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button-draw {
+    background-color: var(--color-button);
+    color: var(--color-white);
+}
+
+.button-draw:hover {
+    background-color: var(--color-button-hover);
+}
+
+.button-clear {
+    background-color: #C74A2D;
+    color: var(--color-white);
+}
+
+.button-clear:hover {
+    background-color: #A03920;
+}
